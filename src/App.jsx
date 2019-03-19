@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+const test="I am test.........."
+// const arr=[
+//   <h>ddddddd</h>,
+//   <p>ttttttttt</p>
+// ]
 class App extends Component {
   render() {
+    console.log(logo)
     return (
       <div className="App">
         <header className="App-header">
@@ -19,6 +24,7 @@ class App extends Component {
           >
             Learn React
           </a>
+         <p>{test}</p>
         </header>
       </div>
     );
